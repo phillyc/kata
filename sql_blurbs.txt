@@ -1,0 +1,3 @@
+SELECT sis_course_id, id FROM redbeard_canvascourse WHERE sis_course_id LIKE "%1550%";
+
+SELECT * FROM redbeard_pssection WHERE course_term = 1550;
