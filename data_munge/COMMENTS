@@ -1,0 +1,9 @@
+COMMENTS
+
+Pretty straight forward Python 2.7 script here.
+
+I tried to use only native Python libs so there wouldn't be any env building. I think I could actually get a sub 1s runtime if I used something smarter like pandas, but I wanted to build no frills way first. As is, it's running around 2.1s on my machine.
+
+I included some unittest at the bottom, just swap the function comment to switch between tests and actual file building. I did this as I went to try and catch all the edge cases. unittest ftw!
+
+This was a fun excercise, lmk if you have any questions. :D
